@@ -1,5 +1,5 @@
-def call(){
-sh 'echo hello world..'
+def call(String name){
+sh 'echo hello ${name}..'
 
 }
 
