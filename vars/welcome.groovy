@@ -1,5 +1,5 @@
-def call(String name){
-sh "echo hello ${name}.."
+def call(Map config = [:]) {
+sh "echo hello ${config.name}.."
 
 }
 
