@@ -1,5 +1,5 @@
 def call(Map config = [:]) {
-sh "echo hello ${config.name}.."
+sh "echo welcome to shared libraries.. ${config.name}.."
 
 }
 
